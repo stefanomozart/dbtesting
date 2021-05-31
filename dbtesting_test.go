@@ -1,4 +1,4 @@
-package dbrx
+package dbtesting
 
 import (
 	"fmt"
