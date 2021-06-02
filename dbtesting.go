@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	dbrdialect "github.com/gocraft/dbr/dialect"
 	"github.com/gocraft/dbr/v2"
+	dbrdialect "github.com/gocraft/dbr/v2/dialect"
 	_ "github.com/jackc/pgx/v4/stdlib" // driver postgres
 	"github.com/stefanomozart/dbrx"
 	sqlmock "gopkg.in/DATA-DOG/go-sqlmock.v1"
